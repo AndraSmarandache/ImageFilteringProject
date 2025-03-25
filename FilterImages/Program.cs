@@ -9,8 +9,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        string inputImagePath = "images/resized_image_128x128.jpg";
-        string outputImagePath = "images/filtered_image_128x128.jpg";
+        string solutionDir = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName;
+        string imagesDir = Path.Combine(solutionDir, "images");
+        string inputImagePath = Path.Combine(imagesDir, "resized_image_128x128.jpg");
+        string outputImagePath = Path.Combine(imagesDir, "filtered_image_128x128.jpg");
 
         if (!File.Exists(inputImagePath))
         {

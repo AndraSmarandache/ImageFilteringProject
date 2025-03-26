@@ -25,3 +25,6 @@ A C# implementation of sequential Gaussian blur filtering, preparing for paralle
 | 32K×32Kpx  | ~8.5min  |
 
 Built with: .NET 9.0, SixLabors.ImageSharp
+
+## Documentation
+https://docs.google.com/document/d/1astXG8wdAVd-7KFACmJk3RbctEtsveufCPoktnsuwP8/edit?usp=sharing

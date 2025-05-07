@@ -64,4 +64,4 @@ Implementarea unui filtru Gaussian pentru procesarea imaginilor, cu versiuni sec
 
 ## Documentație detaliată
 
-Pentru o analiză completă a algoritmilor și rezultatelor experimentale, consultați [documentația]([https://docs.google.com/document/d/1astXG8wdAVd-7KFACmJk3RbctEtsveufCPoktnsuwP8/edit?usp=sharing](https://docs.google.com/document/d/1Lvr94UeL-PmCsR4VaBGzNiWaocePwUWuNJOjV7AGTTY/edit?usp=sharing)).
+Pentru o analiză completă a algoritmilor și rezultatelor experimentale, consultați [documentația](https://docs.google.com/document/d/1astXG8wdAVd-7KFACmJk3RbctEtsveufCPoktnsuwP8/edit?usp=sharing).

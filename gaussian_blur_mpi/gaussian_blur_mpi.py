@@ -55,7 +55,7 @@ def main():
     else:
         comm.Recv(local_data, source=0, tag=rank)
 
-    process_start = time.time() * 1000  # Convert to milliseconds
+    process_start = time.time() * 1000 
     local_result = np.empty((rows_per_process, width, 3), dtype=np.uint8)
     for c in range(3):
         filtered = cv2.filter2D(local_data[:,:,c], -1, kernel, borderType=cv2.BORDER_REFLECT)
@@ -70,7 +70,7 @@ def main():
             recv_buf = np.empty((other_end-other_start, width, 3), dtype=np.uint8)
             comm.Recv(recv_buf, source=i, tag=i+100)
             result[other_start:other_end] = recv_buf
-        process_end = time.time() * 1000  # Convert to milliseconds
+        process_end = time.time() * 1000  
         
         cv2.imwrite(output_path, result)
         print(f"Parallel Processing Time: {process_end-process_start:.2f}")
